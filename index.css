@@ -1,0 +1,37 @@
+:root {
+    --font-family: 'Acme', sans-serif;
+    --cor-principal: #000000;
+    --cor-secundaria: #004225;
+    --cor-terciaria: #FFB000;
+    --cor-quartenaria: #FFFFFF;
+    --cor-back: #164B60;
+}
+
+.start_all {
+    background-color: var(--cor-back);
+}
+
+.gif_mouse_click {
+    color: var(--cor-principal);
+    position: absolute;
+    left: 40%;
+    top: 2px;
+}
+
+.primary_text {
+    color: var(--cor-quartenaria);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 35px;
+}
+
+.secund_text {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--cor-quartenaria);
+    font-size: 16px;
+}
+
+.apresentacao_especialidades {
+    padding: 10px;
+    justify-content: baseline;
+    gap: 50px;
+}
